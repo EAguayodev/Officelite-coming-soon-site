@@ -100,3 +100,10 @@ footer{
     }
   }
 }
+
+@media (max-width: 768px) {
+  footer{
+    height: 78rem;
+    width: 100%;
+  }
+}

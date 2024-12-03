@@ -175,4 +175,46 @@
   }
 }
 
+@media (max-width: 768px) {
+  .solutions-container{
+    .solutions-row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
 
+        .logo{
+          position: relative;
+          top: -10rem;
+          left: 11rem;
+        }
+
+        .illustration-charts{
+          width: 10.688rem;
+        }
+    
+        h1 {
+          font-size: 2.5rem;
+          text-align: center;
+        }
+    
+        p {
+          font-size: 1rem;
+          text-align: center;
+          width: 20.438rem;
+          position: relative;
+          left: 6rem;
+        }
+
+        .get-started-1{
+          position: relative;
+          left: 14rem;
+        }
+      }
+  }
+
+ .box-subscriptions{
+  .sub-cards {
+      width: 20.438rem;
+    }
+  }
+}
