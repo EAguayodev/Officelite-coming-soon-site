@@ -104,6 +104,14 @@ footer{
 @media (max-width: 768px) {
   footer{
     height: 78rem;
-    width: 100%;
+    width: 375px;
+
+    .counter{
+        // width: 5.5rem;
+
+        p{
+            font-size: 2rem;
+        }
+    }
   }
 }

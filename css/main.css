@@ -267,7 +267,10 @@ footer .footer-container .counter span {
 @media (max-width: 768px) {
   footer {
     height: 78rem;
-    width: 100%;
+    width: 375px;
+  }
+  footer .counter p {
+    font-size: 2rem;
   }
 }
 *,
