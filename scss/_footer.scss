@@ -1,0 +1,102 @@
+footer{
+  background-color: $yankees-blue;
+  background-image: url(../assets/home/bg-pattern-footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -40rem center;
+  height: 37.688rem;
+
+  .footer-container{
+    .footer-row {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            top: 21.5rem;
+            position: relative;
+
+            h4{
+                color: $background-color;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+
+            span{
+                color: $blue-berry;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+
+            .get-started-2{
+                background-color: $blue-berry;
+                color: $background-color;
+                padding: 1rem 2rem;
+                border-radius: 3.125rem;
+                font-size: 1rem;
+                font-weight: 500;
+                text-decoration: none;
+
+                &:hover{
+                    background-color: $blue-berry-hover;
+                }
+            }
+        }
+
+        .counter-cards{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .counter{
+            background-color: $charcoal;
+            padding: 1rem;
+            border-radius: 0.625rem;
+            text-align: center;
+
+            p{
+                color: $background-color;
+                font-size: 3.5rem;
+                font-weight: 600;
+            }
+
+            span{
+                color: $rhythm;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+  }
+}
+
+@media (max-width: 1024px) {
+  footer{
+    height: 61.625rem;
+    background-position: center center;
+
+    .footer-row{
+      flex-direction: column;
+      top: 76rem;
+      position: relative;
+
+      h4{
+        text-align: center;
+        position: relative;
+        font-size: 1rem;
+        top: 11rem;
+      }
+
+      .counter-cards{
+        position: relative;
+        top: 13rem;
+    }
+
+
+      .get-started-2{
+        position: relative;
+        top: 17rem;
+        margin-top: 4rem;
+      }
+    }
+  }
+}

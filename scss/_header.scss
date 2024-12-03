@@ -1,32 +1,37 @@
 .solutions-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../assets/home/bg-pattern-header.svg);
-  background-size: contain;
-  background-position: right center;
+  background-size: cover;
+  background-position: 34rem -47rem;
   background-repeat: no-repeat;
 
   .solutions-row{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
+    .logo{
+      margin-bottom: 5rem;
+    }
+
+    .illustration-charts{
+      position: relative;
+      top: 6rem;
+    }
+
     h1{
-    color: $charcoal;
+      color: $charcoal;
       font-size: 3.5rem;
       font-weight: 700;
       width: 33.75rem;
     }
 
     p{
-    color: $rhythm;
+      color: $rhythm;
       font-size: 1.125rem;
       width: 33.75rem;
     }
 
     .btn{
-      margin: 0 1rem;
       padding: 0.7rem 2rem;
       text-decoration: none;
       border-radius: 3.125rem;
@@ -35,9 +40,14 @@
     }
 
     .get-started-1{
-      margin-top: 4rem;
+      top: 2rem;
       background-color: $blue-berry;
       color: $background-color;
+      position: relative;
+      
+      &:hover{
+        background-color: $blue-berry-hover;
+      }
     }
   }
 }
@@ -47,4 +57,122 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1.875rem;
+  // margin-top: 10rem;
+  position: relative;
+  top: 17rem;
+
+
+  .basic, .pro, .ultimate {
+    width: 21.875rem;
+    height: 31.75rem;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    p {
+      font-size: 1.25rem;
+      padding: 0.8rem 0;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+
+  .basic, .ultimate {
+    background-color: white;
+    
+    p, h2 {
+      color: $charcoal;
+      text-align: center;
+    }
+
+    .btn-basic, .btn-ultimate{
+      background-color: #e4dcdc;
+      color: $blue-berry;
+      text-decoration: none;
+      padding: 0.7rem 2rem;
+      border-radius: 3.125rem;
+      font-size: 1rem;
+      font-weight: 500;
+      position: relative;
+      top: 2rem;
+      left: 20%;
+
+      &:hover{
+        background-color: $blue-berry-hover;
+      }
+    }
+  }
+
+  .pro {
+    background-color: #5175FF;
+    background-image: url(../assets/home/bg-pattern-pricing.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    p, h2 {
+      color: white;
+      text-align: center;
+    }
+
+    .btn-pro{
+      background-color: $background-color;
+      color: $blue-berry;
+      text-decoration: none;
+      padding: 0.7rem 2rem;
+      border-radius: 3.125rem;
+      font-size: 1rem;
+      font-weight: 500;
+      position: relative;
+      top: 2rem;
+      left: 20%;
+    }
+  }
 }
+
+@media (max-width: 1024px) {
+  .solutions-container{
+    background-position: 24rem -26rem;
+    .solutions-row{
+      .logo{
+        margin-left: 2.5rem;
+      }
+
+      h1{
+        font-size: 2.5rem;
+        margin-left: 2.5rem;
+      }
+
+      p{
+        margin-left: 2.5rem;
+        font-size: 1rem;
+        width: 21.563rem;
+      }
+
+      .get-started-1{
+        left: 2.5rem;
+      }
+    }
+  }
+
+  .box-subscriptions{
+    top: 25rem;
+    flex-direction: column;
+
+    .sub-cards{
+      width: 43.063rem;
+    }
+
+    .btn-ultimate {
+      left: 60%;
+    }
+
+    .btn-pro{
+      left: 60%;
+    }
+  }
+}
+
+
