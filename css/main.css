@@ -112,7 +112,7 @@
   left: 20%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .solutions-container {
     background-position: 24rem -26rem;
   }
@@ -145,7 +145,7 @@
     left: 60%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .solutions-container {
     background-position: -8rem -11rem;
   }
@@ -276,6 +276,114 @@ footer .footer-container .counter span {
     font-size: 2rem;
   }
 }
+.container .logo {
+  margin-bottom: 3rem;
+  margin-left: 8rem;
+}
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+}
+.container .row h1 {
+  color: #333950;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  width: 33.75rem;
+}
+.container .row p {
+  color: #747B95;
+  font-size: 1.125rem;
+  width: 33.75rem;
+}
+.container .row h4 {
+  color: #333950;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.container .row span {
+  color: #5175FF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.container .row .form-pack {
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 31.75rem;
+  width: 27.813rem;
+  padding: 2.5rem;
+  position: absolute;
+}
+.container .row .form-pack .input-field {
+  border: none;
+  border-bottom: 1px solid #747B95;
+  width: 22.5rem;
+}
+.container .row .form-pack .arrow-down {
+  cursor: pointer;
+  position: relative;
+  left: 21rem;
+  top: -1.2rem;
+}
+.container .row .form-pack .input-field[type=name],
+.container .row .form-pack .input-field[type=text],
+.container .row .form-pack .input-field[type=email],
+.container .row .form-pack .input-field[type=tel],
+.container .row .form-pack .input-field[type=company] {
+  color: #747B95;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+.container .row .form-pack .btn-large {
+  background-color: #5175FF;
+  border-radius: 3.125rem;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  width: 22.5rem;
+}
+.container .row .side-pattern {
+  background-image: url(../assets/sign-up/bg-pattern-side.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-color: #333950;
+  width: 43.25rem;
+  height: 1152px;
+}
+.container .counter-cards {
+  display: flex;
+  gap: 0.5rem;
+}
+.container .counter {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-radius: 0.625rem;
+  text-align: center;
+  width: 7rem;
+}
+.container .counter p.counter-number {
+  color: #5175FF;
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  right: 14.5rem;
+}
+.container .counter span {
+  color: #747B95;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 *,
 *::before,
 *::after {

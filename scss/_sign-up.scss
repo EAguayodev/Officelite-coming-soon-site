@@ -1,0 +1,125 @@
+.container {
+    .logo {
+            margin-bottom: 3rem;
+            margin-left: 8rem;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        padding: 4rem 8rem;
+
+        h1 {
+            color: $charcoal;
+            font-size: 3.5rem;
+            line-height: 4rem;
+            width: 33.75rem;
+        }
+
+        p {
+            color: $rhythm;
+            font-size: 1.125rem;
+            width: 33.75rem;
+        }
+
+        h4 {
+            color: $charcoal;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        
+        span {
+            color: $blue-berry;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .form-pack {
+            border-radius: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $background-color;
+            height: 31.75rem;
+            width: 27.813rem;
+            padding: 2.5rem;
+            position: absolute;
+
+            .input-field {
+                border: none;
+                border-bottom: 1px solid $rhythm;
+                width: 22.5rem;
+            }
+
+            .arrow-down {
+                cursor: pointer;
+                position: relative;
+                left: 21rem;
+                top: -1.2rem;
+            }   
+
+            .input-field[type="name"],
+            .input-field[type="text"],
+            .input-field[type="email"],
+            .input-field[type="tel"],
+            .input-field[type="company"] {
+                color: $rhythm;
+                font-size: 1rem;
+                padding: 0.5rem 1.5rem;
+            }
+
+
+            .btn-large {
+                background-color: $blue-berry;
+                border-radius: 3.125rem;
+                border: none;
+                color: $background-color;
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: 500;
+                padding: 1rem 2rem;
+                width: 22.5rem;
+            }
+        }
+
+    .side-pattern {
+            background-image: url(../assets/sign-up/bg-pattern-side.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            background-color: $charcoal;
+            width: 43.25rem;
+            height: 1152px;
+        }
+    }
+
+        .counter-cards {
+            display: flex;
+            gap: 0.5rem;
+        }
+    
+        .counter {
+            background-color: #f7f7f7;
+            padding: 1rem;
+            border-radius: 0.625rem;
+            text-align: center;
+            width: 7rem;
+    
+            p.counter-number {
+                color: $blue-berry;
+                font-size: 3.5rem;
+                font-weight: 600;
+                text-align: center;
+                position: relative;
+                right: 14.5rem;
+            }
+    
+            span {
+                color: $rhythm;
+                font-size: 1rem;
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+}

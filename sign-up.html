@@ -9,34 +9,74 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
-  <!-- sign up section left side -->
-  Work smarter. Save time.
+  <div class="container">
+    <a href="index.html" class="logo">
+      <img class="logo" src="assets/shared/logo.svg" alt="logo">
+    </a>
+    <div class="row">
+      <div>
+        <h1>Work smarter. Save time.</h1>
+        <p>Easily manage your projects. Get on the list and receive in-app perks available only to
+          early subscribers. We are moving into final development and getting ready for official launch soon.</p>
 
-  Easily manage your projects. Get on the list and receive in-app perks available only to 
-  early subscribers. We are moving into final development and getting ready for official launch soon.
+          <h4>Coming <span>4 Nov 2020</span></h4>
+        <div class="counter-cards">
+        <div class="counter">
+          <p class="counter-number">47</p>
+          <span>Days</span>
+        </div>
+        <div class="counter">
+          <p class="counter-number">07</p>
+          <span>Hours</span>
+        </div>
+        <div class="counter">
+          <p class="counter-number">56</p>
+          <span>Min</span>
+        </div>
+        <div class="counter">
+          <p class="counter-number">14</p>
+          <span>Sec</span>
+        </div>
+      </div>
+    </div>
+      <div>
+        <form class="form-pack" id="form-pack" action="" method="">
+          <div class="form-controls">
+            <input class="input-field" id="name" type="name" placeholder="Name">
+          </div>
+          <div class="form-controls">
+            <input class="input-field" id="email" type="email" placeholder="Email Address">
+          </div>
+          <div class="form-controls">
+            <input class="input-field" id="basic-pack" type="text" placeholder="Basic Pack Free">
+            <img class="arrow-down" id="arrow-down" src="assets/sign-up/icon-arrow-down.svg" alt="arrow-down">
+            <div>
 
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
+            </div>
+          </div>
+          <div class="form-controls">
+            <input class="input-field" id="phone-number" type="tel" placeholder="Phone Number">
+          </div>
+          <div class="form-controls">
+            <input class="input-field" id="company" type="company" placeholder="Company">
+          </div>
+          <div class="form-controls">
+            <button class="btn-large" type="submit">Get on the list</button>
+          </div>
+        </form> 
+      </div>
+      <div class="side-pattern">
+      </div>
+    </div>
+  </div>
 
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
-<!-- sign up section left side end -->
 
-<!-- sign up section right side -->
-  Name
-  Email Address
-  Basic Pack Free
+  <!-- Basic Pack Free
   Basic Pack Free
   Pro Pack $9.99
-  Ultimate Pack $19.99
-  Phone Number
-  Company
-  Get on the list
-<!-- sign up section right side end -->
+  Ultimate Pack $19.99 -->
 </body>
 </html>
