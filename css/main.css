@@ -230,7 +230,7 @@ footer .footer-container .counter {
   border-radius: 0.625rem;
   text-align: center;
 }
-footer .footer-container .counter p {
+footer .footer-container .counter .counter-number {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: 600;
@@ -272,7 +272,7 @@ footer .footer-container .counter span {
     height: 78rem;
     width: 375px;
   }
-  footer .counter p {
+  footer .counter .counter-number {
     font-size: 2rem;
   }
 }
@@ -369,13 +369,12 @@ footer .footer-container .counter span {
   text-align: center;
   width: 7rem;
 }
-.container .counter p.counter-number {
+.container .counter .counter-number {
   color: #5175FF;
   font-size: 3.5rem;
   font-weight: 600;
   text-align: center;
   position: relative;
-  right: 14.5rem;
 }
 .container .counter span {
   color: #747B95;
@@ -384,6 +383,75 @@ footer .footer-container .counter span {
   text-align: center;
 }
 
+@media (max-width: 64rem) {
+  .container .row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .container .row h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .container .row p {
+    font-size: 1rem;
+    width: 35.75rem;
+    text-align: center;
+  }
+  .container .row h4 {
+    text-align: center;
+    position: relative;
+    top: 2rem;
+  }
+  .container .row .counter-cards {
+    position: relative;
+    top: 3rem;
+  }
+  .container .row .form-pack {
+    position: relative;
+    top: 14rem;
+  }
+  .container .row .side-pattern {
+    height: 27.75rem;
+    width: 100%;
+  }
+}
+@media (max-width: 48rem) {
+  .container .row {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .row h1 {
+    font-size: 2.5rem;
+    width: 20.438rem;
+  }
+  .container .row p {
+    width: 20.438rem;
+  }
+  .container .row .counter {
+    width: 4.5rem;
+  }
+  .container .row .counter-number {
+    font-size: 2rem;
+  }
+  .container .row .form-pack {
+    width: 20.438rem;
+  }
+  .container .row .form-pack .arrow-down {
+    left: 15.5rem;
+  }
+  .container .row .form-pack .input-field {
+    width: 17.438rem;
+  }
+  .container .row .form-pack .btn-large {
+    width: 17.438rem;
+  }
+  .container .row .form-pack .side-pattern {
+    height: 20rem;
+    width: 20.438rem;
+  }
+}
 *,
 *::before,
 *::after {
