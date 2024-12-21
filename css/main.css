@@ -344,6 +344,15 @@ footer .footer-container .counter span {
   align-items: center;
   padding: 0.8rem;
 }
+.container .row .form-pack .submenu-control a {
+  color: #25293A;
+  text-decoration: none;
+}
+.container .row .form-pack .submenu-control span {
+  color: #747B95;
+  position: relative;
+  left: 0.5rem;
+}
 .container .row .form-pack .form-controls {
   display: flex;
   align-items: center;
