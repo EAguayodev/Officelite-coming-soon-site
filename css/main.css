@@ -138,11 +138,8 @@
   .box-subscriptions .sub-cards {
     width: 43.063rem;
   }
-  .box-subscriptions .btn-ultimate {
-    left: 60%;
-  }
-  .box-subscriptions .btn-pro {
-    left: 60%;
+  .box-subscriptions .sub-cards .btn-ultimate, .box-subscriptions .sub-cards .btn-pro, .box-subscriptions .sub-cards .btn-basic {
+    left: 39%;
   }
 }
 @media (max-width: 48rem) {

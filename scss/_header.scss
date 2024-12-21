@@ -163,14 +163,9 @@
 
     .sub-cards{
       width: 43.063rem;
-    }
-
-    .btn-ultimate {
-      left: 60%;
-    }
-
-    .btn-pro{
-      left: 60%;
+      .btn-ultimate, .btn-pro, .btn-basic {
+        left: 39%;
+      }
     }
   }
 }
