@@ -1,7 +1,7 @@
 .container {
     .logo {
-            margin-bottom: 3rem;
-            margin-left: 8rem;
+        margin-bottom: 3rem;
+        margin-left: 8rem;
     }
 
     .row {
@@ -27,7 +27,7 @@
             font-size: 1rem;
             font-weight: 500;
         }
-        
+
         span {
             color: $blue-berry;
             font-size: 1rem;
@@ -52,12 +52,52 @@
                 width: 22.5rem;
             }
 
+            .input-field__submenu {
+                background-color: #fff;
+                border: 1px solid $rhythm;
+                box-shadow: 0px 39px 38px -6px rgba(8, 8, 8, 0.44);
+                -webkit-box-shadow: 0px 39px 38px -6px rgba(8, 8, 8, 0.44);
+                -moz-box-shadow: 0px 39px 38px -6px rgba(8, 8, 8, 0.44);
+                height: 198px;
+                width: 367px;
+                padding: 20px 30px;
+                margin: 20px 0;
+                z-index: 4;
+                font-weight: 700;
+                border-radius: 10px;
+                position: absolute;
+                top: 14rem;
+                // visibility: hidden;
+            }
+
+            .submenu-control{
+                display: flex;
+                align-items: center;
+                padding: 0.8rem;
+            }
+
+            .form-controls {
+                display: flex;
+                align-items: center;
+            }
+
+            .icon-error {
+                position: relative;
+                left: -2rem;
+                top: -0.1rem;
+                visibility: hidden;
+            }
+
+            .icon-check{
+                position: relative;
+                left: 9rem;
+            }
+
             .arrow-down {
                 cursor: pointer;
                 position: relative;
-                left: 21rem;
-                top: -1.2rem;
-            }   
+                left: -2.2rem;
+            }
 
             .input-field[type="name"],
             .input-field[type="text"],
@@ -83,7 +123,7 @@
             }
         }
 
-    .side-pattern {
+        .side-pattern {
             background-image: url(../assets/sign-up/bg-pattern-side.svg);
             background-repeat: no-repeat;
             background-size: contain;
@@ -94,33 +134,33 @@
         }
     }
 
-        .counter-cards {
-            display: flex;
-            gap: 0.5rem;
-        }
-    
-        .counter {
-            background-color: #f7f7f7;
-            padding: 1rem;
-            border-radius: 0.625rem;
+    .counter-cards {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .counter {
+        background-color: #f7f7f7;
+        padding: 1rem;
+        border-radius: 0.625rem;
+        text-align: center;
+        width: 7rem;
+
+        .counter-number {
+            color: $blue-berry;
+            font-size: 3.5rem;
+            font-weight: 600;
             text-align: center;
-            width: 7rem;
-    
-            .counter-number {
-                color: $blue-berry;
-                font-size: 3.5rem;
-                font-weight: 600;
-                text-align: center;
-                position: relative;
-            }
-    
-            span {
-                color: $rhythm;
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-            }
+            position: relative;
         }
+
+        span {
+            color: $rhythm;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
 }
 
 
@@ -137,13 +177,13 @@
                 font-size: 2.5rem;
             }
 
-            p{
+            p {
                 font-size: 1rem;
                 width: 35.75rem;
                 text-align: center;
             }
 
-            h4{
+            h4 {
                 text-align: center;
                 position: relative;
                 top: 2rem;
@@ -175,7 +215,7 @@
             justify-content: center;
             align-items: center;
 
-            h1{
+            h1 {
                 font-size: 2.5rem;
                 width: 20.438rem;
             }
@@ -184,7 +224,7 @@
                 width: 20.438rem;
             }
 
-            .counter{
+            .counter {
                 width: 4.5rem;
             }
 
@@ -193,16 +233,24 @@
             }
 
             .form-pack {
-                width: 20.438rem; 
+                width: 20.438rem;
 
                 .arrow-down {
                     left: 15.5rem;
                 }
 
+                .input-field__submenu{
+                    width: 17.938rem;
+                }
+
+                .icon-check{
+                    left: 5rem;
+                }
+
                 .input-field {
                     width: 17.438rem;
                 }
-                
+
                 .btn-large {
                     width: 17.438rem;
                 }

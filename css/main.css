@@ -323,11 +323,45 @@ footer .footer-container .counter span {
   border-bottom: 1px solid #747B95;
   width: 22.5rem;
 }
+.container .row .form-pack .input-field__submenu {
+  background-color: #fff;
+  border: 1px solid #747B95;
+  box-shadow: 0px 39px 38px -6px rgba(8, 8, 8, 0.44);
+  -webkit-box-shadow: 0px 39px 38px -6px rgba(8, 8, 8, 0.44);
+  -moz-box-shadow: 0px 39px 38px -6px rgba(8, 8, 8, 0.44);
+  height: 198px;
+  width: 367px;
+  padding: 20px 30px;
+  margin: 20px 0;
+  z-index: 4;
+  font-weight: 700;
+  border-radius: 10px;
+  position: absolute;
+  top: 14rem;
+}
+.container .row .form-pack .submenu-control {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+}
+.container .row .form-pack .form-controls {
+  display: flex;
+  align-items: center;
+}
+.container .row .form-pack .icon-error {
+  position: relative;
+  left: -2rem;
+  top: -0.1rem;
+  visibility: hidden;
+}
+.container .row .form-pack .icon-check {
+  position: relative;
+  left: 9rem;
+}
 .container .row .form-pack .arrow-down {
   cursor: pointer;
   position: relative;
-  left: 21rem;
-  top: -1.2rem;
+  left: -2.2rem;
 }
 .container .row .form-pack .input-field[type=name],
 .container .row .form-pack .input-field[type=text],
@@ -440,6 +474,12 @@ footer .footer-container .counter span {
   }
   .container .row .form-pack .arrow-down {
     left: 15.5rem;
+  }
+  .container .row .form-pack .input-field__submenu {
+    width: 17.938rem;
+  }
+  .container .row .form-pack .icon-check {
+    left: 5rem;
   }
   .container .row .form-pack .input-field {
     width: 17.438rem;
