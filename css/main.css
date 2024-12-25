@@ -335,6 +335,7 @@ footer .footer-container .counter span {
   border-radius: 10px;
   position: absolute;
   top: 14rem;
+  visibility: hidden;
 }
 .container .row .form-pack .submenu-control {
   display: flex;
@@ -358,7 +359,7 @@ footer .footer-container .counter span {
   position: relative;
   left: -2rem;
   top: -0.1rem;
-  visibility: hidden;
+  display: none;
 }
 .container .row .form-pack .icon-check {
   position: relative;
@@ -415,6 +416,7 @@ footer .footer-container .counter span {
   font-weight: 600;
   text-align: center;
   position: relative;
+  left: -14.5rem;
 }
 .container .counter span {
   color: #747B95;
