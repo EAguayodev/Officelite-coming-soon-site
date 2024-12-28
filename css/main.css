@@ -335,7 +335,7 @@ footer .footer-container .counter span {
   border-radius: 10px;
   position: absolute;
   top: 14rem;
-  visibility: hidden;
+  display: none;
 }
 .container .row .form-pack .submenu-control {
   display: flex;
@@ -378,6 +378,9 @@ footer .footer-container .counter span {
   color: #747B95;
   font-size: 1rem;
   padding: 0.5rem 1.5rem;
+}
+.container .row .form-pack .input-field.error-placeholder::placeholder {
+  color: #F05B5B;
 }
 .container .row .form-pack .btn-large {
   background-color: #5175FF;

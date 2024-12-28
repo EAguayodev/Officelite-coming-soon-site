@@ -1,7 +1,5 @@
 # Frontend Mentor - Officelite coming soon site solution
 
-This is a solution to the [Officelite coming soon site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/officelite-coming-soon-site-M4DIPNz8g). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -34,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [](Github)
-- Live Site URL: [](Vercel)
+- Live Site URL: [https://officelite-coming-soon-site-delta.vercel.app/](Vercel)
 
 ## My process
 
@@ -43,40 +41,78 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - JavaScript
 - Desktop-first workflow
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
 ```html
-
+  <div class="form-controls">
+    <input class="input-field error" id="name" type="name" placeholder="Name">
+    <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
+  </div>
+  <div class="form-controls">
+    <input class="input-field error" id="email" type="email" placeholder="Email Address">
+    <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
+  </div>
+  <div class="form-controls">
+    <input class="input-field" id="basic-pack" type="text" placeholder="Basic Pack Free">
+    <img class="arrow-down" id="icon-arrow" src="assets/sign-up/icon-arrow-down.svg" alt="arrow-down">
+  </div>
 ```
 ```css
-
+ .input-field.error-placeholder::placeholder {
+    color: #F05B5B;
+}
 ```
 ```js
+// counter starts
+const targetDate = new Date();
+targetDate.setDate(targetDate.getDate() + 30);
 
+// Function to update the countdown timer
+function updateCountdown() {
+  const now = new Date();
+  const timeDifference = targetDate - now;
+
+  if (timeDifference <= 0) {
+    // Timer has reached zero; stop the countdown
+    document.getElementById("counter-day").textContent = "0";
+    document.getElementById("counter-hour").textContent = "0";
+    document.getElementById("counter-minute").textContent = "0";
+    document.getElementById("counter-second").textContent = "0";
+    clearInterval(countdownInterval);
+    return;
+  }
+
+  // Calculate days, hours, minutes, and seconds
+  const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+  // Update the HTML with the new values
+  document.getElementById("counter-day").textContent = days;
+  document.getElementById("counter-hour").textContent = hours.toString().padStart(2, '0');
+  document.getElementById("counter-minute").textContent = minutes.toString().padStart(2, '0');
+  document.getElementById("counter-second").textContent = seconds.toString().padStart(2, '0');
+}
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3schools](https://www.w3schools.com/howto/howto_js_dropdown.asp) - The w3schools resource helped me with restructuring the package submenu design for the challenge.
 
 ## Author
 
-- Website - [Eric Aguayo](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/)
+- Website - [Eric Aguayo](https://www.ericaguayo.com)
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev/solutions)
 
 ## Acknowledgments

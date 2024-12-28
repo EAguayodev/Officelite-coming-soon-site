@@ -67,7 +67,7 @@
                 border-radius: 10px;
                 position: absolute;
                 top: 14rem;
-                visibility: hidden;
+                display: none;
             }
 
             .submenu-control{
@@ -120,6 +120,10 @@
                 color: $rhythm;
                 font-size: 1rem;
                 padding: 0.5rem 1.5rem;
+            }
+
+            .input-field.error-placeholder::placeholder {
+                color: #F05B5B;
             }
 
 

@@ -44,39 +44,37 @@
       <div>
         <form class="form-pack" id="form-pack" method="post">
           <div class="form-controls">
-            <input class="input-field" id="name" type="name" placeholder="Name">
+            <input class="input-field error" id="name" type="name" placeholder="Name">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <div class="form-controls">
-            <input class="input-field" id="email" type="email" placeholder="Email Address">
+            <input class="input-field error" id="email" type="email" placeholder="Email Address">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <div class="form-controls">
-            <input class="input-field" id="basic-pack" type="text" placeholder="Basic Pack Free">
+            <input class="input-field" id="basic-pack" type="text" placeholder="Basic Pack Free" readonly>
             <img class="arrow-down" id="icon-arrow" src="assets/sign-up/icon-arrow-down.svg" alt="arrow-down">
+            <div class="input-field__submenu" id="submenu">
+              <div class="submenu-control" data-package="Basic Pack Free">
+                <a href="#">Basic Pack <span>Free</span></a>
+                <img class="icon-check" id="icon-check" src="assets/sign-up/icon-check.svg" alt="icon-check">
+              </div>
+              <hr>
+              <div class="submenu-control" data-package="Pro Pack $9.99">
+                <a href="#">Pro Pack <span>$9.99</span></a>
+              </div>
+              <hr>
+              <div class="submenu-control" data-package="Ultimate Pack $19.99">
+                <a href="#">Ultimate Pack <span>$19.99</span></a>
+              </div>
           </div>
-        
-          <div class="input-field__submenu" id="submenu">
-            <div class="submenu-control">
-              <a href="#">Basic Pack <span>Free</span></a>
-              <img class="icon-check" id="icon-check" src="assets/sign-up/icon-check.svg" alt="icon-check">
-            </div>
-            <hr>
-            <div class="submenu-control">
-              <a href="#">Pro Pack <span>$9.99</span></a>
-            </div>
-            <hr>
-            <div class="submenu-control">
-              <a href="#">Ultimate Pack <span>$19.99</span></a>
-            </div>
-        
           </div>
           <div class="form-controls">
-            <input class="input-field" id="phone-number" type="tel" placeholder="Phone Number">
+            <input class="input-field error" id="phone-number" type="tel" placeholder="Phone Number">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <div class="form-controls">
-            <input class="input-field" id="company" type="company" placeholder="Company">
+            <input class="input-field error" id="company" type="company" placeholder="Company">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <button class="btn-large" id="list-submission" type="submit">Get on the list</button>
