@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const arrowIcon = document.getElementById("icon-arrow");
   const submenu = document.getElementById("submenu");
   const packageField = document.getElementById("basic-pack");
-  const submenuOptions = submenu.querySelector(".input-field__submenu");
+  const submenuOptions = submenu.querySelectorAll("[data-package]");
 
 
   arrowIcon.addEventListener("click", () => {
@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Handle submenu option selection
   submenuOptions.forEach((option) => {
-    option.addEventListener("click", (event) => {
-      const selectedOption = option.querySelector("a").textContent.trim();
+    option.addEventListener("click", () => {
+      const selectedOption = option.getAttribute("data-package");
 
       if (selectedOption) {
         packageField.value = selectedOption;

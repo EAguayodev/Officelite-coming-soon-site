@@ -337,6 +337,10 @@ footer .footer-container .counter span {
   top: 14rem;
   display: none;
 }
+.container .row .form-pack .dropdown {
+  position: relative;
+  cursor: pointer;
+}
 .container .row .form-pack .submenu-control {
   display: flex;
   align-items: center;
