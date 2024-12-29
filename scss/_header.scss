@@ -58,14 +58,11 @@
   justify-content: center;
   align-items: center;
   gap: 1.875rem;
-  // margin-top: 10rem;
   position: relative;
   top: 17rem;
 
 
   .basic, .pro, .ultimate {
-    width: 21.875rem;
-    height: 31.75rem;
     padding: 2rem;
     border-radius: 1rem;
 
@@ -96,11 +93,11 @@
       font-size: 1rem;
       font-weight: 500;
       position: relative;
-      top: 2rem;
+      top: 0.5rem;
       left: 20%;
 
       &:hover{
-        background-color: $blue-berry-hover;
+        background-color: #e3e4e4;
       }
     }
   }
@@ -126,7 +123,7 @@
       font-size: 1rem;
       font-weight: 500;
       position: relative;
-      top: 2rem;
+      top: 0.5rem;
       left: 20%;
     }
   }
@@ -164,7 +161,7 @@
     .sub-cards{
       width: 43.063rem;
       .btn-ultimate, .btn-pro, .btn-basic {
-        left: 39%;
+        left: 20%;
       }
     }
   }
@@ -210,7 +207,7 @@
 
  .box-subscriptions{
   .sub-cards {
-      width: 20.438rem;
+      max-width: 20.438rem;
     }
   }
 }

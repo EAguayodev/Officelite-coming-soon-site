@@ -1,4 +1,6 @@
 .container {
+    height: 100vh;
+
     .logo {
         margin-bottom: 3rem;
         margin-left: 8rem;
@@ -70,10 +72,10 @@
                 display: none;
             }
 
-                        .dropdown {
-                            position: relative;
-                            cursor: pointer;
-                        }
+            .dropdown {
+                position: relative;
+                cursor: pointer;
+            }
 
             .submenu-control{
                 display: flex;
@@ -141,18 +143,24 @@
                 font-size: 1rem;
                 font-weight: 500;
                 padding: 1rem 2rem;
-                width: 22.5rem;
+                width: 100%;
+                // max-width: 22.5rem;
+
+                &:hover{
+                    background-color: $french-sky-blue;
+                }
             }
         }
 
         .side-pattern {
-            background-image: url(../assets/sign-up/bg-pattern-side.svg);
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center center;
+            // background-image: url(../assets/sign-up/bg-pattern-side.svg);
+            // background-repeat: no-repeat;
+            // background-size: contain;
+            // background-position: top center;
             background-color: $charcoal;
-            width: 43.25rem;
-            height: 1152px;
+            max-width: 100%;
+            width: 26.25rem;
+            height: 100vh;
         }
     }
 

@@ -54,8 +54,6 @@
   top: 17rem;
 }
 .box-subscriptions .basic, .box-subscriptions .pro, .box-subscriptions .ultimate {
-  width: 21.875rem;
-  height: 31.75rem;
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -82,11 +80,11 @@
   font-size: 1rem;
   font-weight: 500;
   position: relative;
-  top: 2rem;
+  top: 0.5rem;
   left: 20%;
 }
 .box-subscriptions .basic .btn-basic:hover, .box-subscriptions .basic .btn-ultimate:hover, .box-subscriptions .ultimate .btn-basic:hover, .box-subscriptions .ultimate .btn-ultimate:hover {
-  background-color: #829CFF;
+  background-color: #e3e4e4;
 }
 .box-subscriptions .pro {
   background-color: #5175FF;
@@ -108,7 +106,7 @@
   font-size: 1rem;
   font-weight: 500;
   position: relative;
-  top: 2rem;
+  top: 0.5rem;
   left: 20%;
 }
 
@@ -139,7 +137,7 @@
     width: 43.063rem;
   }
   .box-subscriptions .sub-cards .btn-ultimate, .box-subscriptions .sub-cards .btn-pro, .box-subscriptions .sub-cards .btn-basic {
-    left: 39%;
+    left: 20%;
   }
 }
 @media (max-width: 48rem) {
@@ -175,7 +173,7 @@
     left: 14rem;
   }
   .box-subscriptions .sub-cards {
-    width: 20.438rem;
+    max-width: 20.438rem;
   }
 }
 footer {
@@ -229,7 +227,7 @@ footer .footer-container .counter {
 }
 footer .footer-container .counter .counter-number {
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 footer .footer-container .counter span {
@@ -269,9 +267,15 @@ footer .footer-container .counter span {
     height: 78rem;
     width: 375px;
   }
+  footer .counter {
+    padding: 0;
+  }
   footer .counter .counter-number {
     font-size: 2rem;
   }
+}
+.container {
+  height: 100vh;
 }
 .container .logo {
   margin-bottom: 3rem;
@@ -395,16 +399,16 @@ footer .footer-container .counter span {
   font-size: 1rem;
   font-weight: 500;
   padding: 1rem 2rem;
-  width: 22.5rem;
+  width: 100%;
+}
+.container .row .form-pack .btn-large:hover {
+  background-color: #829CFF;
 }
 .container .row .side-pattern {
-  background-image: url(../assets/sign-up/bg-pattern-side.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
   background-color: #333950;
-  width: 43.25rem;
-  height: 1152px;
+  max-width: 100%;
+  width: 26.25rem;
+  height: 100vh;
 }
 .container .counter-cards {
   display: flex;

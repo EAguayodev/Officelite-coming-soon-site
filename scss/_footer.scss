@@ -56,7 +56,7 @@ footer{
 
             .counter-number{
                 color: $background-color;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight: 600;
             }
 
@@ -107,10 +107,11 @@ footer{
     width: 375px;
 
     .counter{
-      
-        .counter-number {
+      padding: 0;
+        
+      .counter-number {
           font-size: 2rem;
-        }
+      }
     }
   }
 }

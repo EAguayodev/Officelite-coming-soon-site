@@ -46,7 +46,7 @@ Users should be able to:
 
 
 ### What I learned
-
+I learned how to use Javascript to accomplish the bonus section by setting the counter into the future and have it countdown 30 days from its future date. In addition to that conceptg, I learned to use Javascript to display and close a submenu while also allowing the user to select the package selection of their choosing.
 
 To see how you can add code snippets, see below:
 
@@ -104,7 +104,7 @@ function updateCountdown() {
 ```
 
 ### Continued development
-
+For continued development, I'll be doing more frontendmentor challenges to hone my skills when it comes to improving on my understanding of Javascript. This will be important as I begin to start opening up oppoprtunities for front end developer roles coming from being a web content editor and email developer.
 
 ### Useful resources
 
@@ -116,3 +116,4 @@ function updateCountdown() {
 - Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev/solutions)
 
 ## Acknowledgments
+Wanted to give acknowledgments to Mohad Sadaf. His solution to the same challenge helped me with my own idea of how to code the structure of the form dropdown menu, and figure out my way for the user to be able to select their package of choice from the dropdown menu. 
