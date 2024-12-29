@@ -15,6 +15,7 @@
 
     .illustration-charts{
       position: relative;
+      max-width: 100%;
       top: 6rem;
     }
 
@@ -181,9 +182,9 @@
           left: 11rem;
         }
 
-        .illustration-charts{
-          width: 10.688rem;
-        }
+        // .illustration-charts{
+        //   width: 10.688rem;
+        // }
     
         h1 {
           font-size: 2.5rem;

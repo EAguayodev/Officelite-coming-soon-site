@@ -15,6 +15,7 @@
 }
 .solutions-container .solutions-row .illustration-charts {
   position: relative;
+  max-width: 100%;
   top: 6rem;
 }
 .solutions-container .solutions-row h1 {
@@ -153,9 +154,6 @@
     position: relative;
     top: -10rem;
     left: 11rem;
-  }
-  .solutions-container .solutions-row .illustration-charts {
-    width: 10.688rem;
   }
   .solutions-container .solutions-row h1 {
     font-size: 2.5rem;
@@ -407,7 +405,7 @@ footer .footer-container .counter span {
 .container .row .side-pattern {
   background-color: #333950;
   max-width: 100%;
-  width: 26.25rem;
+  width: 40%;
   height: 100vh;
 }
 .container .counter-cards {
