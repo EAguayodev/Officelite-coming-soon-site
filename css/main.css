@@ -150,20 +150,22 @@
   }
   .solutions-container .solutions-row .logo {
     position: relative;
-    top: -10rem;
-    left: 11rem;
+    top: -16rem;
+    left: 5rem;
   }
   .solutions-container .solutions-row .illustration-charts {
     width: 60%;
     margin: auto;
   }
   .solutions-container .solutions-row h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
   }
   .solutions-container .solutions-row p {
     font-size: 1rem;
     text-align: center;
+    position: relative;
+    left: 1.5rem;
   }
   .solutions-container .solutions-row .get-started-1 {
     position: relative;
