@@ -53,25 +53,39 @@
   position: relative;
   top: 17rem;
 }
-.box-subscriptions .basic, .box-subscriptions .pro, .box-subscriptions .ultimate {
+.box-subscriptions .basic,
+.box-subscriptions .pro,
+.box-subscriptions .ultimate {
   padding: 2rem;
   border-radius: 1rem;
 }
-.box-subscriptions .basic p, .box-subscriptions .pro p, .box-subscriptions .ultimate p {
+.box-subscriptions .basic .card-price,
+.box-subscriptions .pro .card-price,
+.box-subscriptions .ultimate .card-price {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.box-subscriptions .basic p,
+.box-subscriptions .pro p,
+.box-subscriptions .ultimate p {
   font-size: 1.25rem;
   padding: 0.8rem 0;
 }
-.box-subscriptions .basic h2, .box-subscriptions .pro h2, .box-subscriptions .ultimate h2 {
-  font-size: 3.5rem;
-}
-.box-subscriptions .basic, .box-subscriptions .ultimate {
+.box-subscriptions .basic,
+.box-subscriptions .ultimate {
   background-color: white;
 }
-.box-subscriptions .basic p, .box-subscriptions .basic h2, .box-subscriptions .ultimate p, .box-subscriptions .ultimate h2 {
+.box-subscriptions .basic p,
+.box-subscriptions .basic h2,
+.box-subscriptions .ultimate p,
+.box-subscriptions .ultimate h2 {
   color: #333950;
   text-align: center;
 }
-.box-subscriptions .basic .btn-basic, .box-subscriptions .basic .btn-ultimate, .box-subscriptions .ultimate .btn-basic, .box-subscriptions .ultimate .btn-ultimate {
+.box-subscriptions .basic .btn-basic,
+.box-subscriptions .basic .btn-ultimate,
+.box-subscriptions .ultimate .btn-basic,
+.box-subscriptions .ultimate .btn-ultimate {
   background-color: #e4dcdc;
   color: #5175FF;
   text-decoration: none;
@@ -83,7 +97,10 @@
   top: 0.5rem;
   left: 20%;
 }
-.box-subscriptions .basic .btn-basic:hover, .box-subscriptions .basic .btn-ultimate:hover, .box-subscriptions .ultimate .btn-basic:hover, .box-subscriptions .ultimate .btn-ultimate:hover {
+.box-subscriptions .basic .btn-basic:hover,
+.box-subscriptions .basic .btn-ultimate:hover,
+.box-subscriptions .ultimate .btn-basic:hover,
+.box-subscriptions .ultimate .btn-ultimate:hover {
   background-color: #e3e4e4;
 }
 .box-subscriptions .pro {
@@ -93,7 +110,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.box-subscriptions .pro p, .box-subscriptions .pro h2 {
+.box-subscriptions .pro p,
+.box-subscriptions .pro h2 {
   color: white;
   text-align: center;
 }
@@ -135,7 +153,9 @@
   .box-subscriptions .sub-cards {
     width: 43.063rem;
   }
-  .box-subscriptions .sub-cards .btn-ultimate, .box-subscriptions .sub-cards .btn-pro, .box-subscriptions .sub-cards .btn-basic {
+  .box-subscriptions .btn-ultimate,
+  .box-subscriptions .btn-pro,
+  .box-subscriptions .btn-basic {
     left: 20%;
   }
 }
@@ -262,10 +282,6 @@ footer .footer-container .counter span {
   }
 }
 @media (max-width: 768px) {
-  footer {
-    height: 78rem;
-    width: 375px;
-  }
   footer .counter {
     padding: 0;
   }
@@ -514,7 +530,6 @@ footer .footer-container .counter span {
 *::before,
 *::after {
   box-sizing: border-box;
-  border: 2px solid red;
 }
 
 /* 2. Remove default margin */

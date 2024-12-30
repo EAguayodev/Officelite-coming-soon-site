@@ -1,38 +1,38 @@
-.solutions-container{
+.solutions-container {
   background-image: url(../assets/home/bg-pattern-header.svg);
   background-size: cover;
   background-position: 34rem -47rem;
   background-repeat: no-repeat;
 
-  .solutions-row{
+  .solutions-row {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    .logo{
+    .logo {
       margin-bottom: 5rem;
     }
 
-    .illustration-charts{
+    .illustration-charts {
       position: relative;
       max-width: 100%;
       top: 6rem;
     }
 
-    h1{
+    h1 {
       color: $charcoal;
       font-size: 3.5rem;
       font-weight: 700;
       // width: 33.75rem;
     }
 
-    p{
+    p {
       color: $rhythm;
       font-size: 1.125rem;
       width: 33.75rem;
     }
 
-    .btn{
+    .btn {
       padding: 0.7rem 2rem;
       text-decoration: none;
       border-radius: 3.125rem;
@@ -40,13 +40,13 @@
       font-weight: 500;
     }
 
-    .get-started-1{
+    .get-started-1 {
       top: 2rem;
       background-color: $blue-berry;
       color: $background-color;
       position: relative;
-      
-      &:hover{
+
+      &:hover {
         background-color: $blue-berry-hover;
       }
     }
@@ -54,7 +54,7 @@
 }
 
 // subscribe section
-.box-subscriptions{
+.box-subscriptions {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,29 +63,36 @@
   top: 17rem;
 
 
-  .basic, .pro, .ultimate {
+  .basic,
+  .pro,
+  .ultimate {
     padding: 2rem;
     border-radius: 1rem;
+
+    .card-price {
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
 
     p {
       font-size: 1.25rem;
       padding: 0.8rem 0;
     }
 
-    h2 {
-      font-size: 3.5rem;
-    }
   }
 
-  .basic, .ultimate {
+  .basic,
+  .ultimate {
     background-color: white;
-    
-    p, h2 {
+
+    p,
+    h2 {
       color: $charcoal;
       text-align: center;
     }
 
-    .btn-basic, .btn-ultimate{
+    .btn-basic,
+    .btn-ultimate {
       background-color: #e4dcdc;
       color: $blue-berry;
       text-decoration: none;
@@ -97,7 +104,7 @@
       top: 0.5rem;
       left: 20%;
 
-      &:hover{
+      &:hover {
         background-color: #e3e4e4;
       }
     }
@@ -109,13 +116,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-    p, h2 {
+
+    p,
+    h2 {
       color: white;
       text-align: center;
     }
 
-    .btn-pro{
+    .btn-pro {
       background-color: $background-color;
       color: $blue-berry;
       text-decoration: none;
@@ -131,84 +139,88 @@
 }
 
 @media (max-width: 64rem) {
-  .solutions-container{
+  .solutions-container {
     background-position: 24rem -26rem;
-    .solutions-row{
-      .logo{
+
+    .solutions-row {
+      .logo {
         margin-left: 2.5rem;
       }
 
-      h1{
+      h1 {
         font-size: 2.5rem;
-        // margin-left: 2.5rem;
         width: 25rem;
       }
 
-      p{
-        // margin-left: 2.5rem;
+      p {
         font-size: 1rem;
         width: 21.563rem;
       }
 
-      .get-started-1{
+      .get-started-1 {
         left: 2.5rem;
       }
     }
   }
 
-  .box-subscriptions{
+  .box-subscriptions {
     top: 25rem;
     flex-direction: column;
 
-    .sub-cards{
+    .sub-cards {
       width: 43.063rem;
-      .btn-ultimate, .btn-pro, .btn-basic {
-        left: 20%;
-      }
     }
+
+    .btn-ultimate,
+    .btn-pro,
+    .btn-basic {
+      left: 20%;
+    }
+
   }
 }
 
 @media (max-width: 48rem) {
-  .solutions-container{
-            background-position: -8rem -11rem;
+  .solutions-container {
+    background-position: -8rem -11rem;
+
     .solutions-row {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
 
-        .logo{
-          position: relative;
-          top: -16rem;
-          left: 5rem;
-        }
-
-        .illustration-charts{
-            width: 60%;
-            margin: auto;
-        }
-    
-        h1 {
-          font-size: 2.2rem;
-          text-align: center;
-        }
-    
-        p {
-          font-size: 1rem;
-          text-align: center;
-          position: relative;
-          left: 1.5rem;
-        }
-
-        .get-started-1{
-          position: relative;
-          left: 7rem;
-        }
+      .logo {
+        position: relative;
+        top: -16rem;
+        left: 5rem;
       }
+
+      .illustration-charts {
+        width: 60%;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1rem;
+        text-align: center;
+        position: relative;
+        left: 1.5rem;
+      }
+
+      .get-started-1 {
+        position: relative;
+        left: 7rem;
+      }
+    }
   }
 
- .box-subscriptions{
-  .sub-cards {
+  .box-subscriptions {
+    .sub-cards {
       max-width: 20.438rem;
     }
   }
