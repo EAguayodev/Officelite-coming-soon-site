@@ -22,7 +22,6 @@
   color: #333950;
   font-size: 3.5rem;
   font-weight: 700;
-  width: 33.75rem;
 }
 .solutions-container .solutions-row p {
   color: #747B95;
@@ -120,10 +119,9 @@
   }
   .solutions-container .solutions-row h1 {
     font-size: 2.5rem;
-    margin-left: 2.5rem;
+    width: 25rem;
   }
   .solutions-container .solutions-row p {
-    margin-left: 2.5rem;
     font-size: 1rem;
     width: 21.563rem;
   }
@@ -155,6 +153,10 @@
     top: -10rem;
     left: 11rem;
   }
+  .solutions-container .solutions-row .illustration-charts {
+    width: 60%;
+    margin: auto;
+  }
   .solutions-container .solutions-row h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -162,13 +164,10 @@
   .solutions-container .solutions-row p {
     font-size: 1rem;
     text-align: center;
-    width: 20.438rem;
-    position: relative;
-    left: 6rem;
   }
   .solutions-container .solutions-row .get-started-1 {
     position: relative;
-    left: 14rem;
+    left: 7rem;
   }
   .box-subscriptions .sub-cards {
     max-width: 20.438rem;
@@ -513,6 +512,7 @@ footer .footer-container .counter span {
 *::before,
 *::after {
   box-sizing: border-box;
+  border: 2px solid red;
 }
 
 /* 2. Remove default margin */
