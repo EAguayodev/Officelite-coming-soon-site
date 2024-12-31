@@ -42,19 +42,19 @@
         </div>
       </div>
       <div>
-        <form class="form-pack" id="form-pack" method="post">
+        <form class="form-pack" aria-labelledby="form-pack-submit-selection" name="form-pack" id="form-pack" method="post">
           <div class="form-controls">
-            <input class="input-field error" id="name" type="name" placeholder="Name" aria-describedby="name-error">
+            <input class="input-field error" id="name" type="name" placeholder="Name" aria-describedby="namebtn">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <div class="form-controls">
-            <input class="input-field error" id="email" type="email" placeholder="Email Address">
+            <input class="input-field error" id="email" type="email" placeholder="Email Address" aria-labelledby="emailbtn">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <div class="form-controls dropwdown">
-            <input class="input-field" id="basic-pack" type="text" placeholder="Basic Pack Free" readonly>
+            <input class="input-field" id="basic-pack" type="text" placeholder="Basic Pack Free" aria-labelledby="packselectbtn" readonly>
             <img class="arrow-down" id="icon-arrow" src="assets/sign-up/icon-arrow-down.svg" alt="arrow-down">
-            <div class="input-field__submenu" id="submenu">
+            <div class="input-field__submenu" id="submenu" aria-dropeffect="popup">
               <div class="submenu-control" data-package="Basic Pack Free">
                 <a href="#">Basic Pack <span>Free</span></a>
                 <img class="icon-check" id="icon-check" src="assets/sign-up/icon-check.svg" alt="icon-check">
@@ -70,14 +70,14 @@
           </div>
           </div>
           <div class="form-controls">
-            <input class="input-field error" id="phone-number" type="tel" placeholder="Phone Number">
+            <input class="input-field error" id="phone-number" type="tel" placeholder="Phone Number" aria-labelledby="phonetbtn" aria-describedby="phonebtn to enter business phone number">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
           <div class="form-controls">
-            <input class="input-field error" id="company" type="company" placeholder="Company">
+            <input class="input-field error" id="company" type="company" placeholder="Company" aria-labelledby="companybtn" aria-describedby="input element to enter company name for pack signup">
             <img class="icon-error" src="assets/sign-up/icon-cross.svg" alt="cross">
           </div>
-          <button class="btn-large" id="list-submission" type="submit">Get on the list</button>
+          <button class="btn-large" role="button" id="list-submission" aria-labelledby="buttonlist" type="submit">Get on the list</button>
         </form>
       </div>
       <div class="side-pattern">
