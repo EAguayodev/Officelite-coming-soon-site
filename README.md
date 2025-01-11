@@ -14,27 +14,29 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See error states when the contact form is submitted if:
-  - The `Name` and/or `Email Address` fields are empty
-  - The `Email Address` is not formatted correctly
-- **Bonus**: See a live countdown timer that ticks down every second
-- **Bonus**: See a custom-styled `select` form control in the sign-up form
-
 ### Links
 
-- Solution URL: [](Github)
+- Solution URL: (Github)
 - Live Site URL: [https://officelite-coming-soon-site-delta.vercel.app/](Vercel)
 
 ## My process
+
+1. **Planning the HTML Structure**  
+   - Listed the tags needed for the layout, including `header`, `main`, `section`, and `footer`.
+   - Created a skeleton HTML structure to organize content and maintain semantic accessibility.
+
+2. **Defining SCSS Classes**  
+   - Planned reusable class names for SCSS, ensuring a modular and scalable approach to styles.
+   - Focused on converting SCSS into compiled CSS for styling flexibility and ease of maintenance.
+
+3. **JavaScript Functionality**  
+   - Reviewed JavaScript documentation to implement form validation, ensuring the form behaves as expected.
+   - Completed the countdown timer bonus section by dynamically updating the timer using JavaScript.
+
+4. **Workflow**  
+   - Adopted a desktop-first workflow to prioritize large screens and adjust for smaller devices later.
+   - Used SCSS variables and mixins for consistent styling and responsive design tweaks.
+
 
 ### Built with
 
@@ -45,8 +47,10 @@ Users should be able to:
 - Desktop-first workflow
 
 
-### What I learned
-I learned how to use Javascript to accomplish the bonus section by setting the counter into the future and have it countdown 30 days from its future date. In addition to that conceptg, I learned to use Javascript to display and close a submenu while also allowing the user to select the package selection of their choosing.
+### What I learned  
+
+I used JavaScript to create a dynamic countdown timer for the bonus section, setting a future date and ensuring it accurately counts down 30 days. Additionally, I confidently implemented JavaScript functionality to display and close a submenu, seamlessly enhancing the user experience. I also developed an intuitive system for users to select their preferred package, combining logic and interactivity to make the feature both functional and user-friendly.
+
 
 To see how you can add code snippets, see below:
 
@@ -113,7 +117,4 @@ For continued development, I'll be doing more frontendmentor challenges to hone 
 ## Author
 
 - Website - [Eric Aguayo](https://www.ericaguayo.com)
-- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev/solutions)
-
-## Acknowledgments
-Wanted to give acknowledgments to Mohad Sadaf. His solution to the same challenge helped me with my own idea of how to code the structure of the form dropdown menu, and figure out my way for the user to be able to select their package of choice from the dropdown menu. 
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev/solutions) 
