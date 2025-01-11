@@ -22,8 +22,8 @@
 ## My process
 
 1. **Planning the HTML Structure**  
-   - Listed the tags needed for the layout, including `header`, `main`, `section`, and `footer`.
-   - Created a skeleton HTML structure to organize content and maintain semantic accessibility.
+   - Listed the tags needed for the layout.
+   - Created a skeleton HTML structure to organize content.
 
 2. **Defining SCSS Classes**  
    - Planned reusable class names for SCSS, ensuring a modular and scalable approach to styles.
@@ -35,7 +35,7 @@
 
 4. **Workflow**  
    - Adopted a desktop-first workflow to prioritize large screens and adjust for smaller devices later.
-   - Used SCSS variables and mixins for consistent styling and responsive design tweaks.
+   - Used SCSS for consistent styling and responsive design tweaks.
 
 
 ### Built with
