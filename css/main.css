@@ -306,11 +306,13 @@ footer .footer-container .counter span {
   font-size: 3.5rem;
   line-height: 4rem;
   width: 33.75rem;
+  margin-bottom: 2rem;
 }
 .container .row p {
   color: #747B95;
   font-size: 1.125rem;
   width: 33.75rem;
+  margin-bottom: 3rem;
 }
 .container .row h4 {
   color: #333950;
@@ -333,6 +335,7 @@ footer .footer-container .counter span {
   width: 27.813rem;
   padding: 2.5rem;
   position: absolute;
+  z-index: 5;
 }
 .container .row .form-pack .input-field {
   border: none;
@@ -421,9 +424,15 @@ footer .footer-container .counter span {
 }
 .container .row .side-pattern {
   background-color: #333950;
+  background-image: url(../assets/sign-up/bg-pattern-side.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   max-width: 100%;
   width: 40%;
-  height: 100vh;
+  height: 1100px;
+  position: relative;
+  top: -11rem;
+  left: 8rem;
 }
 .container .counter-cards {
   display: flex;
@@ -521,9 +530,9 @@ footer .footer-container .counter span {
   .container .row .form-pack .btn-large {
     width: 17.438rem;
   }
-  .container .row .form-pack .side-pattern {
-    height: 20rem;
-    width: 20.438rem;
+  .container .row .side-pattern {
+    height: 31rem;
+    left: 0;
   }
 }
 *,

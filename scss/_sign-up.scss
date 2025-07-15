@@ -16,12 +16,14 @@
             font-size: 3.5rem;
             line-height: 4rem;
             width: 33.75rem;
+            margin-bottom: 2rem;
         }
 
         p {
             color: $rhythm;
             font-size: 1.125rem;
             width: 33.75rem;
+            margin-bottom: 3rem;
         }
 
         h4 {
@@ -47,6 +49,7 @@
             width: 27.813rem;
             padding: 2.5rem;
             position: absolute;
+            z-index: 5;
 
             .input-field {
                 border: none;
@@ -77,17 +80,17 @@
                 cursor: pointer;
             }
 
-            .submenu-control{
+            .submenu-control {
                 display: flex;
                 align-items: center;
                 padding: 0.8rem;
 
-                a{
+                a {
                     color: $yankees-blue;
                     text-decoration: none;
                 }
 
-                span{
+                span {
                     color: $rhythm;
                     position: relative;
                     left: 0.5rem;
@@ -108,7 +111,7 @@
                 display: none;
             }
 
-            .icon-check{
+            .icon-check {
                 position: relative;
                 left: 9rem;
             }
@@ -146,7 +149,7 @@
                 width: 100%;
                 // max-width: 22.5rem;
 
-                &:hover{
+                &:hover {
                     background-color: $french-sky-blue;
                 }
             }
@@ -154,10 +157,15 @@
 
         .side-pattern {
             background-color: $charcoal;
+            background-image: url(../assets/sign-up/bg-pattern-side.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
             max-width: 100%;
             width: 40%;
-            height: 100vh;
-            
+            height: 1100px;
+            position: relative;
+            top: -11rem;
+            left: 8rem;
         }
     }
 
@@ -267,11 +275,11 @@
                     left: -2rem;
                 }
 
-                .input-field__submenu{
+                .input-field__submenu {
                     width: 17.938rem;
                 }
 
-                .icon-check{
+                .icon-check {
                     left: 5rem;
                 }
 
@@ -282,11 +290,11 @@
                 .btn-large {
                     width: 17.438rem;
                 }
+            }
 
-                .side-pattern {
-                    height: 20rem;
-                    width: 20.438rem;
-                }
+            .side-pattern {
+                height: 31rem;
+                left: 0;
             }
         }
     }
