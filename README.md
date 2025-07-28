@@ -72,37 +72,10 @@ To see how you can add code snippets, see below:
 }
 ```
 ```js
-// counter starts
-const targetDate = new Date();
-targetDate.setDate(targetDate.getDate() + 30);
-
-// Function to update the countdown timer
-function updateCountdown() {
-  const now = new Date();
-  const timeDifference = targetDate - now;
-
-  if (timeDifference <= 0) {
-    // Timer has reached zero; stop the countdown
-    document.getElementById("counter-day").textContent = "0";
-    document.getElementById("counter-hour").textContent = "0";
-    document.getElementById("counter-minute").textContent = "0";
-    document.getElementById("counter-second").textContent = "0";
-    clearInterval(countdownInterval);
-    return;
-  }
-
-  // Calculate days, hours, minutes, and seconds
   const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
   const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-  // Update the HTML with the new values
-  document.getElementById("counter-day").textContent = days;
-  document.getElementById("counter-hour").textContent = hours.toString().padStart(2, '0');
-  document.getElementById("counter-minute").textContent = minutes.toString().padStart(2, '0');
-  document.getElementById("counter-second").textContent = seconds.toString().padStart(2, '0');
-}
 ```
 
 ### Continued development
