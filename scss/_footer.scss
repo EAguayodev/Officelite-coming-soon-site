@@ -69,7 +69,7 @@ footer{
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   footer{
     height: 61.625rem;
     background-position: center center;
@@ -101,7 +101,7 @@ footer{
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   footer{
 
     .counter{
